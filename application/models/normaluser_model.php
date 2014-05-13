@@ -1,59 +1,71 @@
 <?php
-	class Normaluser_model extends CI_Model 
+class Normaluser_model extends CI_Model {
+
+	function __construct()
+    {
+        parent::__construct();
+		$this->load->database();
+    }
+
+    function addnormaluser()
+    {
+ 		$data = array(
+		'username' => $this->input->post('username'),
+		'loan_amount' => $this->input->post('loan_amount'),
+		'loan_period' => $this->input->post('loan_period'),
+		'tel' => $this->input->post('tel'),
+		'houseloan' => $this->input->post('houseloan'),
+		'carloan' => $this->input->post('carloan'),
+		'creditloan' => $this->input->post('creditloan'),
+		'salary' => $this->input->post('salary'),
+		);
+		return $this->db->insert('normaluser', $data);
+    }
+	public function updateuserinfo($userid)
 	{
-		public function __construct()
-		{
-		  parent::__construct();	
-		  $this->load->database();
-		}
-		public function update_basic()
-		{
-			if($this->input->post())
-			{
-				$userid = $this->input->post('userid');
-				 $username = $this->input->post('userid');
-				/*这个问题没解决.....*/
-				$data = array(
-						'tel' => $this->input->post('phone'),
-						'gender' => $this->input->post('gender'),
-						'birthofdate' => $this->input->post('born'),				
-						'politicystate' => $this->input->post('politicystate'),
-						'email' => $this->input->post('email'),
-						'address' => $this->input->post('address'),
-					 );
-		
-				$this->db->where('userid', $userid);
-				return $this->db->update('normaluser', $data); 
-			}
-			else
-			{
-			    return false;
-			}
-		}
-		public function update_edu()
-		{
-			if($this->input->post())
-			{
-				$userid = $this->input->post('userid');
-				/*这个问题没问题了，因为是name="" 才能获得post方法的值*/
-				$data = array(
-							'eduin' => $this->input->post('edu-in'),
-							'eduout' => $this->input->post('edu-out'),
-							'school' => $this->input->post('university'),				
-							'major' => $this->input->post('major'),
-							'eduxueli' => $this->input->post('xueli'),
-							'hasfullbasic' => '1',
-					 );
-		
-				$this->db->where('userid', $userid);
-				return $this->db->update('normaluser', $data); 
-			}
-			else
-			{
-			    return false;
-			}
-		}
-
+		$data = array(
+			'username' => $this->input->post('username'),
+			'houseloan' => $this->input->post('houseloan'),
+			'carloan' => $this->input->post('carloan'),
+			'creditloan' => $this->input->post('creditloan'),
+			'salary' => $this->input->post('salary'),
+            );
+		echo $userid;
+		print_r($data);
+		return $this->db->update('normaluser', $data, array('userid' => $userid));
 	}
-?>
-
+	public function getlastnormaluserid($tel)
+	{
+		$this->db->select_max('userid');
+		$query= $this->db->get_where('normaluser',array('tel'=>$tel))->result_array();
+		return $query;
+	}
+    public function get_normaluser($num,$offset)
+    {
+		$this->db->select('username,loan_amount,posttime,loan_period');
+    	$this->db->order_by("userid",'desc');
+	    $query = $this->db->get('normaluser', $num, $offset);        
+	    return $query;
+  	}
+    
+	function getnormaluser($slug="-1")
+    {
+		if($slug == "-1" )
+		{
+			$this->db->limit(6,0);
+			$query = $this->db->get('normaluser');
+			 return $query->result_array();
+		}
+		else if($slug == "total" )
+		{
+			$query = $this->db->get('normaluser');
+			 return $query->result_array();
+		}
+		else
+		{	
+		   $query = $this->db->get_where('normaluser', array('userid' => $slug));
+			return $query->row_array();
+		}
+    }
+}
+/* End of file cookie_model.php */

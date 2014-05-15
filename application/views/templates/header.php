@@ -22,10 +22,10 @@
 </div>
 
     <div class="containers">
-    <div class="logo"> <a href="http://localhost/index.php/mainpage"><img src="/static/img/logo.png" alt="Logo"></a>金融超市 </div>
+    <div class="logo"> <a href="<?php echo base_url('/index.php/mainpage');?>"><img src="/static/img/logo.png" alt="Logo"></a>金融超市 </div>
 	
     <ul class="navs-menu">
-        <li class="car-isure"> <a href="http://localhost/index.php/loandetail">我要贷款</a> </li>
+        <li class="car-isure"> <a href="<?php echo base_url('/index.php/loandetail');?>">我要贷款</a> </li>
         <li class="car-isure"> <a href="http://localhost/index.php/wait">我想买车险</a> </li>
         <li class="car-isure"> <a href="#">我要申请信用卡</a> </li>
         <li class="car-isure"> <a href="#">我要买基金</a> </li>

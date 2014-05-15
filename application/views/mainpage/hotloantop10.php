@@ -1,5 +1,5 @@
 
-<h2>热门贷款</h2><a href="http://localhost/index.php/hotloan" >查看更多</a>	
+<h2>热门贷款</h2><a href="<?php echo base_url('/index.php/hotloan');?>" >查看更多</a>	
 <table class="table table-hover">
  	<tr class="success"><th>银行</th>
 	<th>产品特色</th>
@@ -17,7 +17,11 @@ foreach($top10loan_item as $row)
 	  
 	echo "</td>";
 	echo "<td>";
-	echo "<a href=\"http://localhost/index.php/hotloan/get_loan/".$row['loanid']."\">";
+	
+	echo "<a href=";
+	echo "/index.php/hotloan/get_loan/".$row['loanid'];
+	echo "\>";
+	
 	echo "<input type="."\"button\""." class = \""."btn btn-primary\""."value=\"点击查看\">";
 	echo "</input></a></div>";
 	echo "</td>";

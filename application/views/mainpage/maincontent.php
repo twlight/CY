@@ -10,21 +10,21 @@
   <div class="inner">
  <div class="carousel-inner">
           <div class="item active">
-            <img class ="container" src="http://localhost/static/img/a.png"  alt="First slide">
+            <img class ="container" src="<?php echo base_url('/static/img/a.png');?>" alt="First slide">
               <div class="carousel-caption">
                 <h1>随便写点东西</h1>
                 <p>...</p>
             </div>
           </div>
           <div class="item">
-            <img class ="container" src="http://localhost/static/img/b.png" alt="Second slide">
+            <img class ="container" src="<?php echo base_url('/static/img/b.png');?>" alt="Second slide">
              <div class="carousel-caption">
                 <h3>...</h3>
                 <p>...</p>
             </div>
           </div>
           <div class="item">
-            <img class ="container" src="http://localhost/static/img/c.png" alt="Third slide">
+            <img class ="container" src="<?php echo base_url('/static/img/c.png');?>" alt="Third slide">
              <div class="carousel-caption">
                 <h3>...</h3>
                 <p>...</p>
@@ -35,7 +35,7 @@
   <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left"></span>
   </a>
-  <form action = "http://localhost/index.php/mainpage/addnormaluser/1" method = "post">
+  <form action = "<?php echo base_url('/index.php/mainpage/addnormaluser/1');?>" method = "post">
    <div  class="left carousel-control pay-form">
         <h3 class="pull-left col-sm-12">快速申请贷款</h3>
 		<div class="form-group">

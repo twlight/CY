@@ -1,0 +1,20 @@
+<div class = "container">
+	<div class = "col-xs-6">
+	<?php if($loanspecific)
+	{?>
+	<span>贷款ID:<?php echo $loanspecific['loanid']; ?></span><hr>
+	<span>银行ID:<?php echo $loanspecific['bankid']; ?></span><hr>
+	<span>利率:<?php echo $loanspecific['interest_rate']; ?></span><hr>
+	<span>利率:<?php echo $loanspecific['loanspecial']; ?></span><hr>
+	<span>贷款额度:<?php echo $loanspecific['loan_range']; ?></span><hr>
+	<span>额外费用:<?php echo $loanspecific['extra_fee']; ?></span><hr>
+	<span>贷款期限:<?php echo $loanspecific['loan_period']; ?></span><hr>
+	<span>还款方式:<?php echo $loanspecific['way_of_repayment']; ?></span><hr>
+	<span>还款时间:<?php echo $loanspecific['loan_time']; ?></span><hr>
+	<span>贷款简介:<?php echo $loanspecific['brief_intro_of_loan']; ?></span><hr>
+	<span>贷款申请条件:<?php echo $loanspecific['requirement_of_loan']; ?></span><hr>
+	<span>贷款所需材料:<?php echo $loanspecific['needed_material_of_loan']; ?></span><hr>
+	<span>其他:<?php echo $loanspecific['etc']; ?></span><hr>
+	<?php }?>
+	</div>
+</div>	

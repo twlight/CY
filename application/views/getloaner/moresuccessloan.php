@@ -1,5 +1,4 @@
 <div classs="row">
-
 <h2>成功案例</h2>
 <div class="pagination">
 <?php echo $this->table->generate($results); ?>

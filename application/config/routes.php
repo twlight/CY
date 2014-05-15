@@ -46,6 +46,8 @@ $route['hotloan'] = 'hotloan/index';
 $route['hotloan/get_loan/(:any)'] = 'hotloan/get_loan/$1';
 $route['hotloan/(:any)'] = 'hotloan/view/$1';
 
+$route['calc/gettool/(:any)'] = 'calc/gettool/$1';
+
 $route['releaseloan'] = 'releaseloan';
 $route['releaseloan/success'] = 'releaseloan/success';
 

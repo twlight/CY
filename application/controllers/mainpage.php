@@ -86,8 +86,6 @@ class Mainpage extends CI_Controller {
 		{
 		/*	
 		*/
-			
-			
 			$this->load->model('normaluser_model');
 			//$data['successloan_item'] = $this->normaluser_model->getnormaluser("total");
 			//得到全部的客户资料，这里要进行分页查询哦。。。

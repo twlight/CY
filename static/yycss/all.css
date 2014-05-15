@@ -3,7 +3,7 @@
 body,p,dl,dd,table,td,th,input,button,textarea,img,form,div,ul,ol,li,h1,h2,h3,h4,h5,h6{margin:0;padding:0;}img,iframe{border:0 none;}ol,ul,li{list-style:none;}img,input,label,button{vertical-align:middle;}table{border-collapse:collapse;border-spacing:0;width:100%;}address,caption,cite,th,em,var{font-style:normal;font-weight:normal;}button,input,select,textarea{font-size:100%;}.l-fix:after{content:"";visibility:hidden;display:block;height:0;clear:both;}.l-fix{*zoom:1;}.l{float:left;}.r{float:right;}textarea{resize:none;}*:focus {outline: none;}a{text-decoration:none; color:#0a8cd2;}a:hover{text-decoration:underline;}.m01{ margin-top:10px;}.p01{ padding:10px;}.tc{ text-align:center;}.none{ display:none;}.block{ display:block;}.p01{ padding:10px;}.tl{ text-align:left;}
 body{ font-size:12px; color:#333; background:#efefef; font-family:"Î¢ÈíÑÅºÚ","ËÎÌå",arial; line-height:1.125em;}
 .fff{ background:#fff;}
-.top{background: url(../images/top.png) 0 0 repeat-x; height:35px; line-height:35px; padding-bottom:2px; color:#333; overflow:hidden;}
+.top{background: url(../yyimages/top.png) 0 0 repeat-x; height:35px; line-height:35px; padding-bottom:2px; color:#333; overflow:hidden;}
 a.wsina{padding:3px 8px; border:1px solid #ccc; background:#fff; color:#333;}
 .sina{margin:5px 10px;}
 .warp{width:960px; margin:auto;}
@@ -26,7 +26,7 @@ a.wsina{padding:3px 8px; border:1px solid #ccc; background:#fff; color:#333;}
 .menu li{display:inline;}
 .menu li a{font-size:16px; color:#fff; float:left;  background:bottom; padding:0 15px; margin:0 10px; line-height:40px; transition: all 0.3s ease-in;}
 .menu li a:hover{color:#fff; background:#579ecb; text-decoration:none;}
-.menu li.on a{color:#fff; background:url(../images/menu.png) bottom repeat-x;}
+.menu li.on a{color:#fff; background:url(../yyimages/menu.png) bottom repeat-x;}
 .menu li.on a:hover{cursor:default;}
 /*page*/
 .page{position: relative;width: 960px;height: 26px;margin: 40px auto;text-align: center;line-height: 1.7em;text-decoration: none;color: #B2B2B2;}
@@ -44,5 +44,5 @@ a.wsina{padding:3px 8px; border:1px solid #ccc; background:#fff; color:#333;}
 .c05{color:#ff6633;}
 .c06{color:#c00;}
 /*html404*/
-.html404{ background:url(../images/404.png) 0 70px no-repeat; min-height:200px; padding:80px 30px 80px 180px; width:500px; margin:0 auto; line-height:40px; font-size:16px;}
+.html404{ background:url(../yyimages/404.png) 0 70px no-repeat; min-height:200px; padding:80px 30px 80px 180px; width:500px; margin:0 auto; line-height:40px; font-size:16px;}
 .maxIndex{z-index:999 !important;}

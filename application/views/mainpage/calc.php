@@ -1,7 +1,7 @@
 <div class="col-md-4">
 <h2>贷款工具</h2>
 <div class="list-group">
-  <a href="http://ruepay.com/calc/hottol-18.html" class="list-group-item active">
+  <a href="<?php echo "/index.php/calc/gettool/1";?>" class="list-group-item active">
     <h4 class="list-group-item-heading">个人贷款计算器 </h4>
     <p class="list-group-item-text">1分钟算出你能贷多少钱</p>
   </a>

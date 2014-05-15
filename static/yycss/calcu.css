@@ -15,17 +15,17 @@
 .tab{ background:#fff;}
 .tabNav{ float:left; width:139px; border:1px solid #4a90c5; border-right:none 0 !important;}
 .tabNav li{ height:82px; float:left;}
-.tabNav li a,.tabNav li a:hover,.tabNav li.on a:hover{ background:url(../images/tBlue.png) 0 0 repeat-x;}
+.tabNav li a,.tabNav li a:hover,.tabNav li.on a:hover{ background:url(../yyimages/tBlue.png) 0 0 repeat-x;}
 .tabNav li,.tabNav li a,.tabNav li a span,.tabNav li.on a span,.tabNav li a:hover span{ height:82px; line-height:82px;}
 .tabNav li a{ float:left;font-size:20px; background-position:0 -82px; color:#3a7dc0;width:139px; text-align:center;}
-.tabNav li.on a span,.tabNav li a:hover span{ display:block; background:url(../images/tOn.png) right center no-repeat;}
+.tabNav li.on a span,.tabNav li a:hover span{ display:block; background:url(../yyimages/tOn.png) right center no-repeat;}
 .tabNav li.on a,.tabNav li a:hover{background-position:0 0; color:#fff; text-decoration:none; text-shadow:0 0 0 #000;}
 .tabNav li a:hover{background-position:0 -164px;}
 .tabNav li.on a:hover{background-position:0 0;}
 .tabMain{ border:1px solid #e5e5e5; border-left:none 0; height:328px; background:#fff; width:534px;float:right; overflow:hidden;}
 
 .tRed .tabNav{ border:1px solid #e3552d;}
-.tRed li a,.tRed li a:hover,.tRed li.on a:hover{ background:url(../images/tRed.png) 0 0 repeat-x;}
+.tRed li a,.tRed li a:hover,.tRed li.on a:hover{ background:url(../yyimages/tRed.png) 0 0 repeat-x;}
 .tRed li,.tRed li a,.tRed li a span,.tRed li.on a span,.tRed li a:hover span{ height:50px; line-height:50px;}
 .tRed li a{ color:#e77853; background-position:0 -50px;}
 .tRed li a:hover{ background-position:0 -100px;}
@@ -33,7 +33,7 @@
 
 .tBluet h2{color:#0892cf; line-height:1.4em; font-size:14px; padding:15px 15px 10px 35px;}
 .tBluet .tabNav{ border:1px solid #18a3d6;}
-.tBluet .tabNav li a,.tBluet .tabNav li a:hover,.tBluet .tabNav li.on a:hover,.tBluet .tabNav li.on a{ background:url(../images/tBlueT.png) 0 0 repeat-x;}
+.tBluet .tabNav li a,.tBluet .tabNav li a:hover,.tBluet .tabNav li.on a:hover,.tBluet .tabNav li.on a{ background:url(../yyimages/tBlueT.png) 0 0 repeat-x;}
 .tBluet .tabNav li,.tBluet .tabNav li a,.tBluet .tabNav li a span,.tBluet .tabNav li.on a span,.tBluet .tabNav li a:hover span{ height:99px; line-height:99px;}
 .tBluet .tabNav li a{ color:#3a7dc0; background-position:0 -99px;}
 .tBluet .tabNav li a:hover{ background-position:0 -198px; color:#fff;}
@@ -48,7 +48,7 @@
 .dBox h3 span{ font-family:SimHei,Geneva,sans-serif;}
 .uBox{border-radius:3px; border:1px solid #ccc; display:inline; margin:0 5px 0 10px; padding:5px; font-size:12px; color:#7f8c97; float:left;}
 .uBox input{border:none 0; width:60px; margin-right:5px;}
-.dBox .btn{ background:url(../images/btn.png) 0 0 no-repeat; width:148px; height:38px; border:none; font-size:12px; color:#fff; cursor:pointer; text-indent:-99em; overflow: hidden; *float:left; margin-left:65px;}
+.dBox .btn{ background:url(../yyimages/btn.png) 0 0 no-repeat; width:148px; height:38px; border:none; font-size:12px; color:#fff; cursor:pointer; text-indent:-99em; overflow: hidden; *float:left; margin-left:65px;}
 .dBox .btn:hover{ background-position:0 -38px;}
 .col{padding:10px 0 5px 0; font-size:14px; position:relative; height:29px; *height:30px;}
 .col .tip{position:absolute; left:185px; top:11px; font-size:12px;}
@@ -60,7 +60,7 @@
 .dBox label{float:left;} 
 .dBox em{font-size:12px; color:#999; padding-top:7px; float:left;}
 .ilist{padding:0; width:500px;}
-.ilist li{background:url(../images/list.png) 0 center no-repeat; float:left; width:180px; padding:5px 50px 5px 15px; font-weight:bold;}
+.ilist li{background:url(../yyimages/list.png) 0 center no-repeat; float:left; width:180px; padding:5px 50px 5px 15px; font-weight:bold;}
 .ilist li span{padding-left:30px; color:#a6a6a6; font-weight: normal;}
 .ilist li a{color:#0066ff;}
 .dForm{ height:170px;}
@@ -76,7 +76,7 @@
 .cal{ padding:10px; position:relative;}
 .cal .sinp{ border:1px solid #d6d6d6; margin:0 5px; padding:5px;}
 .cal .mainCon{ margin-left:1px;}
-.cal .selBtn{ background:url(../images/calSelect.png) left center no-repeat; border:1px solid #d6d6d6; border-left:none; height:27px; width:23px;}
+.cal .selBtn{ background:url(../yyimages/calSelect.png) left center no-repeat; border:1px solid #d6d6d6; border-left:none; height:27px; width:23px;}
 .cal .selectbox{ background:none; border:1px solid #d6d6d6; border-right:none; height:25px; line-height:25px;}
 .cal .time{ z-index:10!important;}
 .cal .time .selectbox{ width:50px !important;}
@@ -86,7 +86,7 @@
 .cal .sfont .selectbox-wrapper{ width:151px !important; top:24px !important; font-size:12px;}
 
 .cal div.selectbox-wrapper{ border:1px solid #cdcdcd;}
-.cal .btn{ background:url(../images/calBtn.png) 0 0 repeat-x; height:29px; border:none; border:1px solid #cdcdcd; padding:0 15px; cursor:pointer; margin-left:62px;}
+.cal .btn{ background:url(../yyimages/calBtn.png) 0 0 repeat-x; height:29px; border:none; border:1px solid #cdcdcd; padding:0 15px; cursor:pointer; margin-left:62px;}
 .cal .btn:hover{ background-position:0 -29px;}
 .sjsTab{padding-top:10px;}
 .sjsTab .thd{ border:1px solid #ccc; float:none; background:#fff; height:24px; line-height:24px; overflow:hidden;overflow:hidden; width:250px;}
@@ -124,11 +124,11 @@
 .t02 td.first{background:F8F8F8;}
 .t03 th,.t03 td{ padding:10px 0;}
 
-.bxBox{ padding:10px 20px 10px 35px; background:url(../images/bxBox1.png) right bottom no-repeat; height:280px;}
-.bB1{ background:url(../images/bxBox2.png) right bottom no-repeat;}
-.bB2{ background:url(../images/bxBox3.png) right bottom no-repeat;}
-.bB3{ background:url(../images/bxBox4.png) right bottom no-repeat;}
-.bB4{ background:url(../images/bxBox5.png) right bottom no-repeat;}
+.bxBox{ padding:10px 20px 10px 35px; background:url(../yyimages/bxBox1.png) right bottom no-repeat; height:280px;}
+.bB1{ background:url(../yyimages/bxBox2.png) right bottom no-repeat;}
+.bB2{ background:url(../yyimages/bxBox3.png) right bottom no-repeat;}
+.bB3{ background:url(../yyimages/bxBox4.png) right bottom no-repeat;}
+.bB4{ background:url(../yyimages/bxBox5.png) right bottom no-repeat;}
 .bxBox h3{ color:#e3653e; font-size:18px; line-height:2em;}
 .bxBox p{ font-size:14px; color:#333; height:35px; line-height:22px;}
 
@@ -142,10 +142,10 @@
 .listC3 li{ float:left; width:230px; border-top:1px dashed #cdcdcd; margin-top:-1px; margin-bottom:5px; padding:5px 5px;}
 .listC3 li p{ line-height:24px;}
 
-.city{ border:1px solid #E8E8E8; height:210px; background:#fcfcfc url(../images/city.png) center 40px no-repeat; padding-top:187px;}
+.city{ border:1px solid #E8E8E8; height:210px; background:#fcfcfc url(../yyimages/city.png) center 40px no-repeat; padding-top:187px;}
 .city p{ text-align:center; padding:10px;}
 .city select{ padding:5px; font-size:16px; width:180px;}
-.city .btn{ background:url(../images/cityBtn.png) 0 0 no-repeat; height:53px; width:189px; border:none 0; font-size:16px; color:#fff; cursor:pointer;}
+.city .btn{ background:url(../yyimages/cityBtn.png) 0 0 no-repeat; height:53px; width:189px; border:none 0; font-size:16px; color:#fff; cursor:pointer;}
 
 /*xuzd 2013-1-25*/
 .blueBox{ border:1px solid #bad8eb;}
@@ -159,14 +159,14 @@
 .blueBox .bd .link li{ width:80px;}
 .redTwoHd{ background:#cd3121;}
 .tRedTwo .tabNav{ border:1px solid #e3552d;}
-.tRedTwo li a,.tRedTwo li a:hover,.tRedTwo li.on a:hover{ background:url(../images/tRedTwo.png) 0 0 repeat-x;}
+.tRedTwo li a,.tRedTwo li a:hover,.tRedTwo li.on a:hover{ background:url(../yyimages/tRedTwo.png) 0 0 repeat-x;}
 .tRedTwo li,.tRedTwo li a,.tRedTwo li a span,.tRedTwo li.on a span,.tRedTwo li a:hover span{ height:127px; line-height:127px;}
 .tRedTwo li a{ color:#e77853; background-position:0 -127px;}
 .tRedTwo li a:hover{ background-position:0 -254px;}
 .tRedTwo .tabMain{ height:254px;}
 .tRedTwo .tabMain .dBox{ padding:0;}
 .redTwoFd{ background:#f9f9f9; padding:10px 10px 10px 20px; border-right:1px solid #e5e5e5;}
-.redTwoFd li{ background:url(../images/ico01.png) left center no-repeat; width:322px; float:left; padding:10px 0;}
+.redTwoFd li{ background:url(../yyimages/ico01.png) left center no-repeat; width:322px; float:left; padding:10px 0;}
 .redTwoFd li span{ display:inline-block; padding:0 10px 0 10px; *display:inline; color:#3d517f}
 .redTwoFd li span.c06{color:#c00;}
 .redTwoFd li img{ margin-left:10px;}
@@ -175,7 +175,7 @@
 #fundNetvalue li{ display:inline-block; *display:inline; border-left:1px solid #333; padding:0 5px; margin-left:-2px; color:#0D519C; cursor:pointer;}
 #fundNetvalue li.on{ color:red;}
 .helpList{ border:1px solid #e8e8e8; padding:1px;}
-.helpList .box{ background:#fff url(../images/bg01.png) 0 0 repeat-x;}
+.helpList .box{ background:#fff url(../yyimages/bg01.png) 0 0 repeat-x;}
 .helpList .box .hd{ padding:10px; font-size:14px; font-family:"黑体";}
 .helpList .box .bd{ padding:0 10px 10px;}
 .helpList .box .bd li{ line-height:30px; height:30px;}
@@ -226,15 +226,15 @@
 .zcpart1 .zcleft {width:735px;float:left;  }
 
 .zcpart1 .zcleft #slide_1  {width:165px;float:left;}
-#slide_1 dt {background:url(../images/count_wzc03.png) no-repeat;line-height:31px;width:165px;text-indent:22px;color:#fff;margin-bottom:1px;font-size:14px; cursor:pointer; font-family:Arial,"宋体";}
+#slide_1 dt {background:url(../yyimages/count_wzc03.png) no-repeat;line-height:31px;width:165px;text-indent:22px;color:#fff;margin-bottom:1px;font-size:14px; cursor:pointer; font-family:Arial,"宋体";}
 #slide_1 dl dd {display:none; }
 #slide_1 dd p {border-bottom:1px dashed #ccc;line-height:31px;width:165px; text-indent:22px;color:#fff;margin-bottom:1px; font-size:14px;font-family:Arial;  }
 #slide_1 dd p a {color:#5b93ae;display:block; }
-#slide_1 dd p a:hover {background:url(../images/count_wzc14.png) no-repeat right 6px;color:#5b93ae;  }
-#slide_1 dd p .selected {background:url(../images/count_wzc14.png) no-repeat right 6px;font-weight:bold; }
+#slide_1 dd p a:hover {background:url(../yyimages/count_wzc14.png) no-repeat right 6px;color:#5b93ae;  }
+#slide_1 dd p .selected {background:url(../yyimages/count_wzc14.png) no-repeat right 6px;font-weight:bold; }
 
-#slide_1 .zc_up {background:url(../images/count_wzc03.png) no-repeat;}
-#slide_1 .zc_down {background:url(../images/leftnavbg2.gif) 0 -1px no-repeat;}
+#slide_1 .zc_up {background:url(../yyimages/count_wzc03.png) no-repeat;}
+#slide_1 .zc_down {background:url(../yyimages/leftnavbg2.gif) 0 -1px no-repeat;}
 #slide_1 .zc_show dd {display:block; }
 
 .zcpart1 .zcleft .contant {width:560px;float:right;  }
@@ -244,25 +244,25 @@
 .zcblks label {font-size:14px;color:#0152a4;width:200px;overflow:hidden; float:left;text-indent:10px;  }
 .zcblks span {color:#585858;width:120px;overflow:hidden;float:left;   }
 .zcblks input {width:130px;float:left;line-height:18px;height:18px;border:1px solid #bacbd3;   }
-.zcblks .cal {width:26px;height:23px;margin-left:10px;display:inline;background:red url(../images/count_wzc13.png) no-repeat;float:left;}
+.zcblks .cal {width:26px;height:23px;margin-left:10px;display:inline;background:red url(../yyimages/count_wzc13.png) no-repeat;float:left;}
 .contant .zcsp {height:70px; }
 .zcsp label {font-size:14px;color:#0152a4;width:90px;overflow:hidden; float:left; }
 .zcsp dl {width:215px;float:left;  }
 .zcsp dt {font-size:14px;color:#017eb8;margin-bottom:5px;line-height:22px; }
 .zcsp2 {height:53px;padding-right:15px; }
-.zcsp2 input {float:right;margin-top:15px;width:67px;height:30px;line-height:30px;vertical-align:middle;border:none;background:url(../images/count_wzc15.png) no-repeat;font-size:14px;color:#fff;margin-left:5px;  }
+.zcsp2 input {float:right;margin-top:15px;width:67px;height:30px;line-height:30px;vertical-align:middle;border:none;background:url(../yyimages/count_wzc15.png) no-repeat;font-size:14px;color:#fff;margin-left:5px;  }
 .zch2 {width:200px;height:25px;line-height:25px; border-bottom:1px solid #80ccee;margin-bottom:10px;   }
 .zch2 h4 {color:#0052a2; font-family:"微软雅黑","宋体";font-size:16px;border-bottom:1px solid #80ccee;float:left;    }
 .zcsp3 {padding:15px 0 0 0;}
 .zcsp3 label {font-size:14px;color:#0152a4;width:200px;text-indent:10px;float:left;   }
 .zcsp3 textarea {width:522px;height:85px;margin-top:5px;border:1px solid #dcdcdc; }
 .zcsp4 {padding:15px 15px 10px 0;position:relative;height:31px;  }
-.zcsp4 .download {float:right;width:119px;height:31px;line-height:31px;vertical-align:middle;border:none;background:url(../images/count_wzc16.png) no-repeat;font-size:14px;color:#fff;     }
+.zcsp4 .download {float:right;width:119px;height:31px;line-height:31px;vertical-align:middle;border:none;background:url(../yyimages/count_wzc16.png) no-repeat;font-size:14px;color:#fff;     }
 
 
-.hide {position:absolute;z-index:20;left:380px;top:-23px;background:url(../images/count_wzc10.png) no-repeat;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale, src='../images/count_wzc10.png');_background:none;padding:10px 0 0 5px;width:180px;height:38px;color:#828282;    }
-.hide .cancel {width:18px;height:18px;float:left;background:url(../images/count_wzc09.png) no-repeat;cursor:pointer;margin-right:3px;   }
-.hide2 { position:absolute;z-index:2;left:66px;top:20px;padding:15px;width:295px;height:63px;background:url(../images/count_wzc11.png) no-repeat; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale, src="../images/count_wzc11.png");_background:none;  }
+.hide {position:absolute;z-index:20;left:380px;top:-23px;background:url(../yyimages/count_wzc10.png) no-repeat;_filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale, src='../yyimages/count_wzc10.png');_background:none;padding:10px 0 0 5px;width:180px;height:38px;color:#828282;    }
+.hide .cancel {width:18px;height:18px;float:left;background:url(../yyimages/count_wzc09.png) no-repeat;cursor:pointer;margin-right:3px;   }
+.hide2 { position:absolute;z-index:2;left:66px;top:20px;padding:15px;width:295px;height:63px;background:url(../yyimages/count_wzc11.png) no-repeat; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=scale, src="../yyimages/count_wzc11.png");_background:none;  }
 .hide2 p {line-height:30px;height:30px;  }
 .hide2 label {line-height:30px;height:30px;width:95px;float:left;  font-size:14px;color:#0052a6;  }
 .hide2 input {line-height:14px;height:14px;float:right;width:192px;margin-top:5px;overflow:hidden;    }
@@ -271,7 +271,7 @@
 .zcpart1 .zcright {width:205px;float:right; }
 .zcblks2 {margin-bottom:10px;}
 .zcblks2 .zccont {border:1px solid #e1e1e1;border-top:0;border-bottom:0;}
-.zcblks2 .zcbot {height:7px;line-height:9px;clear:both;font-size:0px;background:url(../images/count_wzc08.png) no-repeat;}
+.zcblks2 .zcbot {height:7px;line-height:9px;clear:both;font-size:0px;background:url(../yyimages/count_wzc08.png) no-repeat;}
 .zcblks2 .zclist a {color:#6b6b6b;}
 .zcblks2 .zclist a:visited {color:#800080;}
 .zcblks2 .zclist a:hover {color:#f00;}
@@ -287,18 +287,18 @@
 #hots ul { height:34px; }
 #hots ul li{
 	float:left;
-	background:url(../images/hotsleft.gif) no-repeat left;
+	background:url(../yyimages/hotsleft.gif) no-repeat left;
 	margin-right:5px;
 	padding-left:7px;
 }
 #hots ul li div{
-	background:url(../images/hotsright.gif) no-repeat right;
+	background:url(../yyimages/hotsright.gif) no-repeat right;
 	padding-right:5px;
 }
 #hots ul li div a{
 	display: inline-block;
 	height:34px;
-	background:url(../images/hotscenter.gif) 0 1px repeat-x;
+	background:url(../yyimages/hotscenter.gif) 0 1px repeat-x;
 	color:#101F3E;
 	font-size:14px;
 	text-decoration:none;
@@ -358,7 +358,7 @@
 	text-align:right;
 }
 .input button{
-	background: url(/images/count_wzc15.png) no-repeat scroll 0 0 transparent;
+	background: url(../yyimages/count_wzc15.png) no-repeat scroll 0 0 ;
 	border:medium none;
 	color:#FFFFFF;
 	font-size:14px;
@@ -392,10 +392,10 @@
 input{
 	border:1px solid #B5B8C8;
 	line-height:18px;
-	background:#FFFFFF url(../images/text-bg.gif) repeat-x;
+	background:#FFFFFF url(../yyimages/text-bg.gif) repeat-x;
 }
 input.error{
-	background: #FFFFFF  url(../images/invalid_line.gif) repeat-x scroll center bottom;
+	background: #FFFFFF  url(../yyimages/invalid_line.gif) repeat-x scroll center bottom;
 	border-color:#CC3300;	
 }
 #center .disList input.resetbtn{
@@ -408,11 +408,11 @@ input.error{
 }
 #center input.uinumber, #center input.uidate{
 	text-align:right;
-	width:133px;
-	_width:133px;
+	width:175px;
+	_width:175px;
 	padding:5px;		
-	height:18px;
-	line-height:18px;	
+	height:21px;
+	line-height:21px;	
 }
 #center select{ padding:6px 5px; vertical-align:middle;}
 .input tr, .output tr{
@@ -441,9 +441,9 @@ input.txtd{
 
 #tooltip { 
     display:none; 
-    background:url(../images/black_arrow.png); 
+    background:url(../yyimages/black_arrow.png); 
 	_background:none;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../images/black_arrow.png");
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="../yyimages/black_arrow.png");
     font-size:13px;
 	font-weight:bolder; 
     height:70px; 

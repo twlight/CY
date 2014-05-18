@@ -44,11 +44,17 @@ $route['wait'] = 'wait';
 
 $route['hotloan'] = 'hotloan/index';
 $route['hotloan/get_loan/(:any)'] = 'hotloan/get_loan/$1';
+$route['hotloan/delete_loan'] = 'hotloan/delete_loan';
+$route['hotloan/delete_loan/(:any)'] = 'hotloan/delete_loan/$1';
+$route['hotloan/update_loan'] = 'hotloan/update_loan';
+$route['hotloan/update_loan/(:any)'] = 'hotloan/update_loan/$1';
+$route['hotloan/post_update_loan'] = 'hotloan/post_update_loan';
 $route['hotloan/(:any)'] = 'hotloan/view/$1';
 
 $route['calc/gettool/(:any)'] = 'calc/gettool/$1';
 
 $route['releaseloan'] = 'releaseloan';
+$route['releaseloan/post'] = 'releaseloan/post';
 $route['releaseloan/success'] = 'releaseloan/success';
 
 $route['loandetail'] = 'loandetail';

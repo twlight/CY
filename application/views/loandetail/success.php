@@ -4,9 +4,9 @@
 </head>
 <body>
 
-<h3>Your form was successfully submitted!</h3>
+<h3>您的贷款信息已经提交，请等待银行客服联系您！</h3>
 
-<p><?php echo anchor('http://localhost/index.php/mainpage', '返回首页!'); ?></p>
+<p><?php echo anchor(base_url('index.php/mainpage'), '返回首页!'); ?></p>
 
 </body>
 </html>

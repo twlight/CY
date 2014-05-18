@@ -1,6 +1,6 @@
 <?php echo validation_errors(); ?>
 <div class = "container">
-<?php echo form_open('http://localhost/index.php/releaseloan/post'); ?>
+<?php echo form_open(base_url('index.php/releaseloan/post')); ?>
 
 银行ID<input type = "text" name = "bankid" id = "bankid"></input><hr>
 银行名称<input type = "text" name = "bankname" id = "bankname"></input><hr>

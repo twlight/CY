@@ -1,6 +1,6 @@
 <?php $attributes = array('class' => 'form-horizontal', 'id' => 'myform');
-echo form_open('http://localhost/index.php/loandetail/post',$attributes)?>
-   
+echo form_open(base_url('index.php/loandetail/post'),$attributes)?>
+
    <div class="form-group">
     <label for="username" class="col-sm-2 control-label" >您的姓名</label>
     <div class="col-sm-10">

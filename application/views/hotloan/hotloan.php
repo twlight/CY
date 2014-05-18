@@ -16,7 +16,11 @@ foreach($hotloan_item as $row)
 	  
 	echo "</td>";
 	echo "<td>";
-	echo "<a href=\"http://localhost/index.php/hotloan/get_loan/".$row['loanid']."\">";
+	
+	echo "<a href=";
+	echo base_url('index.php/hotloan/get_loan/'.$row['loanid']);
+	echo ">";
+	
 	echo "<input type="."\"button\""." class = \""."btn btn-primary\""."value=\"点击查看\">";
 	echo "</input></a></div>";
 	echo "</td>";

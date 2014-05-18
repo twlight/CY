@@ -67,5 +67,27 @@ class Normaluser_model extends CI_Model {
 			return $query->row_array();
 		}
     }
+    public function fastpost()
+	{
+		$data = array(
+		'loan_amount' => $this->input->post('loan_amount'),
+		'loan_period' => $this->input->post('loan_period'),
+		'tel' => $this->input->post('tel'),
+		);
+		return $this->db->insert('normaluser', $data);
+	}
+	public function fastpost2()
+	{
+		$tel =  $this->input->post('tel');
+		$data = array(
+		'username' =>$this->input->post('username'),
+		'houseloan' => $this->input->post('houseloan'),
+		'carloan' => $this->input->post('carloan'),
+		'creditloan' => $this->input->post('creditloan'),
+		'salary' => $this->input->post('salary'),
+		);
+		$this->db->where('tel', $tel);
+		return $this->db->update('normaluser', $data); 
+	}
 }
 /* End of file cookie_model.php */
